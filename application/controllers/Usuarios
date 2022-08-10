@@ -1,0 +1,22 @@
+<?php 
+defined('BASEPATH') OR exit('Acão não permitida');
+
+class Usuarios extends CI_Controller {
+
+public function __construct() {
+    parent::__construct();
+
+    //Definir se há sessão
+
+}
+
+    public function index() {
+
+        $data = array(
+
+            'usuarios' => 
+        );
+    }
+
+}
+    
