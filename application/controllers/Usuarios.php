@@ -15,6 +15,8 @@ public function __construct() {
 
         $data = array(
 
+            'titulo' => 'Usuários cadastrados',
+
             'styles' => array(
                 'vendor/datatables/dataTables.bootstrap4.min.css',
             ),

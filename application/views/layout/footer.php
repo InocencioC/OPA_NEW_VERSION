@@ -1,16 +1,22 @@
 <?php if(!$this->router->fetch_class() == 'login'): ?>
-
       <!-- Footer -->
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Oportunidades Profissional Avista</span>
+            <span  >Copyright &copy; Oportunidades Profissional Avista <?php echo date('Y') ?> | Criado por Inocêncio Cordeiro</span>
+          
+             <!-- Linkedin -->
+      <a style="color: white; background: grey;" class="btn btn-outline-blue btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/inoc%C3%AAncio-cordeiro/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+          
           </div>
         </div>
       </footer>
       <!-- End of Footer -->
-
 <?php endif; ?>
+
+
 
     </div>
     <!-- End of Content Wrapper -->
@@ -52,6 +58,15 @@
   <!-- Custom scripts for all pages-->
   <script src="<?php echo base_url('public/js/sb-admin-2.min.js') ?>"></script>
 
+  <?php if(isset($scripts)): ?>
+
+  <?php foreach ($scripts as $script): ?>
+
+   <!-- Custom scripts for this module-->
+    <script src="<?php echo base_url('public/'.$script); ?>"></script>
+
+  <?php endforeach;  ?>
+<?php endif; ?>
 </body>
 
 </html>

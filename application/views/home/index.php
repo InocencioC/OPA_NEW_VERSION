@@ -118,17 +118,18 @@
     <textarea class="form-control" id="description" rows="3" Required> 
     </textarea> 
     </div>
-    
- 
-      <a href=""  type="submit" class="btn btn-primary" role="button">Salvar</a>
 
+    <div class="col-md-12">
+  <br>
+  <button type="submit" class="btn btn-primary">Salvar</button>
+  </div>
 
 </div>
 
+ 
 
   </form>
  
-       
         </div>
         <!-- /.container-fluid -->
         <br>

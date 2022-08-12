@@ -20,6 +20,7 @@ class Login extends CI_Controller {
 $identity = $this->security->xss_clean($this->input->post('email'));
 $password = $this->security->xss_clean($this->input->post('password'));
 $remember = FALSE; // remember the user
+
 if($this->ion_auth->login($identity, $password, $remember)) {
 
 redirect('home');

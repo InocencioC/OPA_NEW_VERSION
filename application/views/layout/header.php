@@ -9,6 +9,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <?php echo (isset($titulo)  ?  '<title> OPA | '.$titulo.'</title>' : '<title>OPA</title>') ?>
+
   <title>Oportunidades Profissional Avista</title>
 
   <!-- Custom fonts for this template-->
