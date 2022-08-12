@@ -14,4 +14,5 @@ class Home extends CI_Controller {
         $this->load->view('layout/footer');
 
     }
+  
 }

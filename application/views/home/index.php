@@ -119,10 +119,12 @@
     </textarea> 
     </div>
     
-    <div class="col-md-12">
-      <br>
-    <button type="submit" class="btn btn-primary">Salvar</button>
-  </div>
+ 
+      <a href=""  type="submit" class="btn btn-primary" role="button">Salvar</a>
+
+
+</div>
+
 
   </form>
  
