@@ -19,6 +19,11 @@
           <span>Formulário</span></a>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <i class="fa fa-address-card"></i>
+          <span>Usuarios</span></a>
+      </li>
       <!-- Divider -->
       <hr class="sidebar-divider">
 

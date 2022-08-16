@@ -32,7 +32,7 @@
                       <th>E-mail</th>
                       <th>Província</th>
                       <th>Foto</th>
-                      <th class="text-right" >Ações</th>
+                      <th class="text-right">Ações</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -46,7 +46,7 @@
                       <td><?php echo $user->province ?></td>
                       <td><?php echo $user->dir_photo ?></td>
                      <td class="text-right" >
-                      <a title="Editar"  href="" class="btn btn-sm btn-primary" >Editar</a>
+                      <a title="Editar"  href="<?php echo base_url('usuarios/edit/'.$user->id); ?>" class="btn btn-sm btn-primary" >Editar</a>
                       <a title="Excluir" href="" class="btn btn-sm btn-danger" >Excluir</a>
                      </td>
                     </tr>
