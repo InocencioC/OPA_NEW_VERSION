@@ -32,10 +32,18 @@ $(document).ready(function() {
       }
     }
 
+
+
     $('.dataTable').DataTable({
 
       'oLanguage': DATATABLE_PTBR,
 
+responsive: true,
+'aoColumnDefs': [{
+  'bSortable': false,
+  'aTargets': ['no-sort']
+
+}]
 
     });
   });
