@@ -48,6 +48,12 @@
 <div class="form-group row">
 
 <div class="col-md-4">
+      <label>Usuário</label>
+      <input type="text" class="form-control" name="username" placeholder="Seu usuário" value="<?php echo $usuario->username; ?>">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+
+<div class="col-md-4">
   <label>Ativo</label>
 
 <select class="form-control" name="active">
